@@ -31,3 +31,11 @@ Add3.call(number: 1) do |on|
   on.success { |result| p result }
   on.success { |data, type| p [data, type] }
 end
+
+puts "-------------"
+
+Add3
+  .call(number: 1)
+  .on_success { |result| p result }
+  .on_success { |result, use_case| p [result, use_case] }
+  .on_success { |(data, type)| p [data, type] }
