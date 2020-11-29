@@ -1,8 +1,4 @@
-# Railway Oriented Programming in Ruby
-
----
-
-## pt-BR
+# Railway Oriented Programming em Ruby
 
 **Código produzido na palestra:** u-case: Casos de uso em Ruby. Entenda na prática o poder do railway oriented programming
 
